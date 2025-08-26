@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savindu Sasmitha - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide-icons@0.303.0/dist/umd/lucide.min.js"></script>
+</head>
+<body class="font-inter scroll-smooth">
+
+    <nav class="bg-gray-800 p-4 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#home" class="text-white text-2xl font-bold hover:text-blue-400 transition duration-300">
+                <span class="text-blue-500">Savindu</span>Sasmitha
+            </a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#home" class="text-gray-300 hover:text-white transition duration-300">Home</a>
+                <a href="#about" class="text-gray-300 hover:text-white transition duration-300">About</a>
+                <a href="#projects" class="text-gray-300 hover:text-white transition duration-300">Projects</a>
+                <a href="#skills" class="text-gray-300 hover:text-white transition duration-300">Skills</a>
+                <a href="#contact" class="text-gray-300 hover:text-white transition duration-300">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-white focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-700 mt-2 rounded-md">
+            <a href="#home" class="block text-gray-300 hover:text-white px-4 py-2 text-sm">Home</a>
+            <a href="#about" class="block text-gray-300 hover:text-white px-4 py-2 text-sm">About</a>
+            <a href="#projects" class="block text-gray-300 hover:text-white px-4 py-2 text-sm">Projects</a>
+            <a href="#skills" class="block text-gray-300 hover:text-white px-4 py-2 text-sm">Skills</a>
+            <a href="#contact" class="block text-gray-300 hover:text-white px-4 py-2 text-sm">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="flex items-center justify-center min-h-screen bg-gray-100 text-gray-800 p-4">
+        <div class="intro text-center max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-lg">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight"> Savindu <span class="text-blue-600"> Sasmitha </span></h1>
+            <h2 class="text-2xl md:text-3xl font-semibold text-gray-600 mb-6">UI/UX Designer</h2>
+            <p class="text-lg md:text-xl leading-relaxed mb-8">
+                Understanding human needs and creating easy and delightful digital products for them
+            </p>
+            <a href="#projects" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                Projects
+            </a>
+        </div>
+    </section>
+
+        <section id="about" class="py-16 px-4 bg-white text-gray-800">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-blue-600">About me</h2>
+            
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                <div class="md:w-1/3 flex justify-center">
+                    
+                    <img src="WhatsApp Image 2025-03-03 at 13.17.25_152c78da.jpg" alt="My image" class="w-64 h-64 md:w-full md:h-auto rounded-full object-cover shadow-lg transform transition duration-300 hover:scale-105">
+                </div>
+                
+                <div class="md:w-2/3 text-lg text-center md:text-left">
+                    <p class="mb-4">
+                        I am Savindu Sasmitha. I am a student interested in UI/UX Design. My background is an 
+                        undergraduate student at Rajarata University of Sri Lanka.
+                    </p>
+                    <p class="mb-4">
+                        My areas of interest include user research, wireframing, prototyping, and interface design, 
+                        and I have good knowledge of Figma.
+                    </p>
+                    <p>
+                        My goal is to have a positive impact on the world by creating innovative and user-friendly 
+                        digital products.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="py-16 px-4 bg-gray-100 text-gray-800">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-blue-600">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                    <img src="Screenshot (1691).png" alt="Project-1 image" class="w-full h-70 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Project-1</h3>
+                        <p class="text-gray-700 mb-4">
+                            I designed the UI/UX for a modern, user-friendly e-commerce application specializing in 
+                            mobile phones and electronics. My focus was on creating a simple, attractive interface that 
+                            allows users to easily search, view product details, and make purchases, enhancing the 
+                            overall user experience through clear categorization and product display.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-purple-200 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Figma</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <a href="https://www.figma.com/design/tSgR2z5KSJWOWsV67WaJQA/Project-3?m=auto&t=uLMMrFKDgzE3aYJb-1" class="text-blue-600 hover:underline font-semibold flex items-center gap-1">
+                                Figma File 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-figma"><path d="M5 18a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3Z"/><path d="M9 3v8a2 2 0 0 0 2 2h4a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V6a3 3 0 0 0-3-3H9Z"/></svg>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </article>
+                
+                
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                    <img src="weather-app-main-ios-16.jpg" alt="Project-2 image" class="w-full h-70 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Project-2</h3>
+                        <p class="text-gray-700 mb-4">
+                            My main goal in creating this app was to create a simple and intuitive interface that allows
+                            users to easily view temperature, rain probability, and daily weather patterns through clear
+                            visualizations. A key focus was on presenting temperature trend charts and essential weather 
+                            data effectively.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-green-200 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">React</span>
+                            <span class="bg-red-200 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">SQL</span>
+                            <span class="bg-blue-200 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Tailwind CSS</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <a href="#" class="text-blue-600 hover:underline font-semibold flex items-center gap-1">
+                                GitHub <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.44-.78-3.46 0 0-1.09 0-3 1.5.08-.67.08-1.33 0-2C11 4 9 5.17 9 7.5A4.8 4.8 0 0 0 8 11v4c-3 .5-4 0-4-1.5s.5-2 2-2.5c-.75-1-1-2-1-3.5 0-2 .5-4 2-5.5 0-1 .5-2 1-3.5 0 0 1 .5 3 2 1.5-.5 3-.5 4 0 2-1.5 3-2 3-2z"/></svg>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </article>
+
+                
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                    <img src="Screenshot (1693).png" alt="Project-3 image" class="w-full h-70 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Project-3</h3>
+                        <p class="text-gray-700 mb-4">
+                            My focus was on creating a modern, user-friendly interface that simplifies finding products 
+                            by category (Lenovo, Mac, Dell, Hp, Asus...etc) and viewing detailed information 
+                            (color, style, origin). The goal was to provide an intuitive and efficient purchasing 
+                            experience.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Figma</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <a href="https://www.figma.com/design/ph7X8Oep7F4qZlG2EjRjC2/Practical-03_MobileApp?m=auto&t=rOztmR7KwQ9EZZeS-1" class="text-blue-600 hover:underline font-semibold flex items-center gap-1">
+                                Figma File 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-figma"><path d="M5 18a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3Z"/><path d="M9 3v8a2 2 0 0 0 2 2h4a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V6a3 3 0 0 0-3-3H9Z"/></svg>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </article>
+
+
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section id="skills" class="py-16 px-4 bg-white text-gray-800">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-blue-600">My Skills</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 text-center">
+
+                <div class="p-4 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-codesandbox mx-auto mb-2 text-blue-500"><path d="M3 17V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M5 17h14M5 7h14M7 5v14M17 5v14"/></svg>
+                    <p class="font-semibold text-lg">HTML</p>
+                </div>
+
+                <div class="p-4 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-paintbrush mx-auto mb-2 text-red-500"><path d="M12 19V6"/><path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6h0c3.31 0 6-2.69 6-6s-2.69-6-6-6z"/></svg>
+                    <p class="font-semibold text-lg">CSS</p>
+                </div>
+
+                <div class="p-4 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-javascript mx-auto mb-2 text-yellow-500"><path d="M12 2L4 7v10l8 5 8-5V7l-8-5z"/><path d="M12 7l4-2.5m-4 2.5v10m0-10l-4-2.5"/></svg>
+                    <p class="font-semibold text-lg">JavaScript</p>
+                </div>
+
+                <div class="p-4 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-figma mx-auto mb-2 text-purple-500"><path d="M5 18a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3Z"/><path d="M9 3v8a2 2 0 0 0 2 2h4a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V6a3 3 0 0 0-3-3H9Z"/></svg>
+                    <p class="font-semibold text-lg">Figma</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section id="contact" class="py-16 px-4 bg-gray-100 text-gray-800">
+        <div class="container mx-auto max-w-2xl">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-blue-600">Contact</h2>
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <p class="text-center text-lg mb-6">Use the details below to contact me, or fill out the form.</p>
+                
+                <div class="flex flex-col md:flex-row justify-center gap-6 mb-8 text-center md:text-left">
+                    <a href="mailto:savindusasmitha31@gmail.com" class="flex items-center justify-center md:justify-start gap-2 text-blue-600 hover:underline">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        savindusasmitha31@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/savindu-sasmitha-55226137b " target="_blank" class="flex items-center justify-center md:justify-start gap-2 text-blue-600 hover:underline">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/savindu200324" target="_blank" class="flex items-center justify-center md:justify-start gap-2 text-blue-600 hover:underline">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.44-.78-3.46 0 0-1.09 0-3 1.5.08-.67.08-1.33 0-2C11 4 9 5.17 9 7.5A4.8 4.8 0 0 0 8 11v4c-3 .5-4 0-4-1.5s.5-2 2-2.5c-.75-1-1-2-1-3.5 0-2 .5-4 2-5.5 0-1 .5-2 1-3.5 0 0 1 .5 3 2 1.5-.5 3-.5 4 0 2-1.5 3-2 3-2z"/></svg>
+                        GitHub
+                    </a>
+                </div>
+
+                
+                <form class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">E-mail Address</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                        <textarea id="message" name="message" rows="5" class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-md font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105 shadow-md">
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <footer class="bg-gray-800 text-gray-300 py-6 text-center">
+    </footer>
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
